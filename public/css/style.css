@@ -1,0 +1,54 @@
+header {
+    background: #06113a;
+    padding: 16px 20px;
+    min-height: 80px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.title {
+    color: white;
+    padding-left: 35%;
+}
+
+body {
+    background: #06113a;
+}
+
+.main {
+    position: relative;
+    margin: 10% 0 0 15%;
+}
+
+.cardBody {
+    background: #001728;
+    color: white;
+}
+
+ul {
+    padding-left: 5%;
+    padding-right: 0;
+}
+
+@media screen and (max-width:600px) {
+    .title {
+        padding-left: 8%;
+    }
+    .main {
+        margin-top: 20%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .main {
+        margin-left: 6%;
+    }
+}
